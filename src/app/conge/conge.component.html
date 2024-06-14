@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+<form>
+    <fieldset >
+      <legend>Demande de congé</legend>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Type de congé</label>
+        <select id="disabledSelect" class="form-select">
+            <option>Maladie</option>
+            <option>Vacances</option>
+            <option>Maternité</option>
+            <option>Autre</option>
+          </select>
+      </div>
+      <div class="mb-3">
+        <label for="disabledSelect" class="form-label">Nombre de jours</label>
+        <select id="disabledSelect" class="form-select">
+          <option>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Soumettre</button>
+    </fieldset>
+  </form>
+
+  <app-footer></app-footer>
+  <router-outlet></router-outlet>

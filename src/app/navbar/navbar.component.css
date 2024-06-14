@@ -1,0 +1,21 @@
+.form-inline.ml-3{
+  margin-left:50px; 
+}
+
+.btn.btn-navbar
+{
+  background-color: rgb(250, 250, 250);
+  padding-top:30px;
+  border-radius: 3px;
+  width:100%;
+
+}
+
+.main-header.navbar.navbar-expand.navbar-white.navbar-light
+{
+  background-color: rgb(92, 92, 250) !important;
+}
+
+button{
+padding-left: 2px;
+}

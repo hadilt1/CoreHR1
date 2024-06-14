@@ -92,3 +92,10 @@ label a{
     color: #fff;
     text-decoration: none;
 }
+
+.right{
+    padding-left: 5px;
+}
+.left{
+    padding-right: 3px;
+}
